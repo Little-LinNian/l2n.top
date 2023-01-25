@@ -18,3 +18,5 @@ Write your first post!
 ## Usage
 
 Modify `valaxy.config.ts` to custom your blog.
+
+## Thanks 枫晓桐 for his backimage!

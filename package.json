@@ -1,6 +1,6 @@
 {
-  "name": "linnian-blog",
-  "version": "0.12.1",
+  "name": "lnblog",
+  "version": "0.13.3",
   "private": true,
   "scripts": {
     "build": "npm run build:ssg && npm run rss",
@@ -11,8 +11,9 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "valaxy": "0.12.1",
-    "valaxy-theme-yun": "0.12.1"
+    "valaxy": "0.13.3",
+    "valaxy-addon-twikoo": "^0.0.1",
+    "valaxy-theme-yun": "0.13.3"
   },
   "devDependencies": {
     "typescript": "^4.8.4"
