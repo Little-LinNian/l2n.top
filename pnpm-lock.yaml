@@ -1,17 +1,17 @@
 lockfileVersion: 5.4
 
 specifiers:
-  typescript: ^4.8.4
-  valaxy: 0.13.3
+  typescript: ^4.9.4
+  valaxy: 0.13.7
   valaxy-addon-algolia: ^0.0.2
   valaxy-addon-twikoo: ^0.0.1
   valaxy-theme-yun: 0.13.3
 
 dependencies:
-  valaxy: 0.13.3_typescript@4.9.4
+  valaxy: 0.13.7_typescript@4.9.4
   valaxy-addon-algolia: 0.0.2
-  valaxy-addon-twikoo: 0.0.1_valaxy@0.13.3
-  valaxy-theme-yun: 0.13.3_valaxy@0.13.3
+  valaxy-addon-twikoo: 0.0.1_valaxy@0.13.7
+  valaxy-theme-yun: 0.13.3_valaxy@0.13.7
 
 devDependencies:
   typescript: 4.9.4
@@ -3147,38 +3147,38 @@ packages:
       - react-dom
     dev: false
 
-  /valaxy-addon-twikoo/0.0.1_valaxy@0.13.3:
+  /valaxy-addon-twikoo/0.0.1_valaxy@0.13.7:
     resolution: {integrity: sha512-xPDwTj3YVi8MGBOTxWAEL161xUZeEZIEqqdsHrWPRkMeI8sg1hbgMasac+YYIbKkI05a1L9K/TkHZ+rk/Mj39g==}
     peerDependencies:
       valaxy: latest
     dependencies:
-      valaxy: 0.13.3_typescript@4.9.4
+      valaxy: 0.13.7_typescript@4.9.4
     dev: false
 
-  /valaxy-addon-waline/0.0.9_valaxy@0.13.3:
+  /valaxy-addon-waline/0.0.9_valaxy@0.13.7:
     resolution: {integrity: sha512-IG3S7IhsL1whR49NNRe+J3g7owxfCjFPLfWmwE2+1xH2O7JRcmdrOTgH3mEpVLbX7gqUx1nNBKx7njW1gUGawQ==}
     peerDependencies:
       valaxy: latest
     dependencies:
       '@waline/client': 2.14.7
-      valaxy: 0.13.3_typescript@4.9.4
+      valaxy: 0.13.7_typescript@4.9.4
     transitivePeerDependencies:
       - '@vue/composition-api'
     dev: false
 
-  /valaxy-theme-yun/0.13.3_valaxy@0.13.3:
+  /valaxy-theme-yun/0.13.3_valaxy@0.13.7:
     resolution: {integrity: sha512-T1DYyTBw5umlHMEqbm8eJUZW/OHvf92R87yBBPVNJzhahZ99JTtv6MTiccN12eNC2/tFKqNob1PacVSsXFJcRg==}
     dependencies:
       '@iconify-json/ant-design': 1.1.4
       '@iconify-json/simple-icons': 1.1.41
-      valaxy-addon-waline: 0.0.9_valaxy@0.13.3
+      valaxy-addon-waline: 0.0.9_valaxy@0.13.7
     transitivePeerDependencies:
       - '@vue/composition-api'
       - valaxy
     dev: false
 
-  /valaxy/0.13.3_typescript@4.9.4:
-    resolution: {integrity: sha512-JsVzP3Lk+AkERomZqVCMl1ojrz63m4wRkzuw5iJ8HY+zjN2Zim3yolTj11elFfalp641HcLOp8fbfB50+YXyaQ==}
+  /valaxy/0.13.7_typescript@4.9.4:
+    resolution: {integrity: sha512-JuKVEKsiqwKx6iZqielk1WUEwIx+td9u0KmvRuf7/oC3odJKG0XXpEXmC2Fe58rWoM8Jpe8kyl7Os2rGqXxkRA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     dependencies:
