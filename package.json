@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "valaxy": "0.13.3",
+    "valaxy-addon-algolia": "^0.0.2",
     "valaxy-addon-twikoo": "^0.0.1",
     "valaxy-theme-yun": "0.13.3"
   },

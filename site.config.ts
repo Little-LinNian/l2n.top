@@ -52,5 +52,6 @@ export default defineSiteConfig({
 
   search: {
     enable: true,
+    type: "local"
   },
 })
