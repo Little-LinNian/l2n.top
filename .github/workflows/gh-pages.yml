@@ -30,9 +30,13 @@ jobs:
       - name: 🌌 Build Valaxy Blog
         run: npm run build
 
-      - name: 🪤 Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: 🪤 Deploy to Tencent Cloud
+        uses: TencentCloud/cos-action@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          force_orphan: true
+          secret_id: ${{ secrets.TENCENT_CLOUD_SECRET_ID }}
+          secret_key: ${{ secrets.TENCENT_CLOUD_SECRET_KEY }}
+          cos_bucket: ${{ secrets.COS_BUCKET }}
+          cos_region: ${{ secrets.COS_REGION }}
+          local_path: dist
+          remote_path: /
+          clean: true
