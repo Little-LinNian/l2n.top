@@ -20,3 +20,5 @@ Write your first post!
 Modify `valaxy.config.ts` to custom your blog.
 
 ## Thanks 枫晓桐 for his backimage!
+
+## Thanks xixi for his server
